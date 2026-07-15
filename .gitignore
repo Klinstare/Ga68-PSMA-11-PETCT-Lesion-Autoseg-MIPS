@@ -1,0 +1,35 @@
+# Never commit data, model outputs, or anything patient-identifying.
+*.nii
+*.nii.gz
+*.npz
+*.npy
+*.dcm
+*.ima
+*.pth
+*.docx
+
+# nnU-Net working dirs
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+Predictions/
+Data_Origin/
+logs/
+results/
+
+# Patient-identifying maps — must NOT be shared
+nameMapping*.json
+*_cohort_split.json
+*.orig_ids.bak
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Allow the non-identifying template explicitly
+!config_template/split_template.json
+.Rhistory

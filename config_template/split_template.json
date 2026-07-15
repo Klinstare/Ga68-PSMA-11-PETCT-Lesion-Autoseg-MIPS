@@ -1,0 +1,12 @@
+{
+  "_comment": "Template only — contains NO patient data. Map each of YOUR case folder names to a unique integer id. Create this file from your own dataset; the manuscript's patient-identifying map is intentionally not distributed.",
+  "train": {
+    "CASE_0001": 1,
+    "CASE_0002": 2,
+    "CASE_0003": 3
+  },
+  "test": {
+    "CASE_0301": 301,
+    "CASE_0302": 302
+  }
+}

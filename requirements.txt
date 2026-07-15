@@ -1,0 +1,8 @@
+# Core dependencies for the Stage-II cascade training code.
+# Install nnU-Net v2 per https://github.com/MIC-DKFZ/nnUNet (provides GPU torch).
+nnunetv2>=2.2
+torch>=2.0
+SimpleITK>=2.2
+numpy>=1.24
+scipy>=1.10
+tqdm>=4.65
